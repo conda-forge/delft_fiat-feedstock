@@ -1,5 +1,5 @@
 {% set name = "delft_fiat" %}
-{% set version = "0.1.0rc1" %}
+{% set version = "0.1.0rc2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5be537ec4d21cd3d452050e11aa40ed35fc2343bd9d61609a21858adaea42749
+  sha256: 1d22f4655d1b56785582aa36cdf389bec672ff16c7b5242f670652415b288d8b
 
 build:
   number: 0
