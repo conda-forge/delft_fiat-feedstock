@@ -36,14 +36,14 @@ Current release info
 Installing delft_fiat
 =====================
 
-Installing `delft_fiat` from the `conda-forge/label/delft_fiat_rc` channel can be achieved by adding `conda-forge/label/delft_fiat_rc` to your channels with:
+Installing `delft_fiat` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
-conda config --add channels conda-forge/label/delft_fiat_rc
+conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge/label/delft_fiat_rc` channel has been enabled, `delft_fiat` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `delft_fiat` can be installed with `conda`:
 
 ```
 conda install delft_fiat
@@ -58,26 +58,26 @@ mamba install delft_fiat
 It is possible to list all of the versions of `delft_fiat` available on your platform with `conda`:
 
 ```
-conda search delft_fiat --channel conda-forge/label/delft_fiat_rc
+conda search delft_fiat --channel conda-forge
 ```
 
 or with `mamba`:
 
 ```
-mamba search delft_fiat --channel conda-forge/label/delft_fiat_rc
+mamba search delft_fiat --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search delft_fiat --channel conda-forge/label/delft_fiat_rc
+mamba repoquery search delft_fiat --channel conda-forge
 
 # List packages depending on `delft_fiat`:
-mamba repoquery whoneeds delft_fiat --channel conda-forge/label/delft_fiat_rc
+mamba repoquery whoneeds delft_fiat --channel conda-forge
 
 # List dependencies of `delft_fiat`:
-mamba repoquery depends delft_fiat --channel conda-forge/label/delft_fiat_rc
+mamba repoquery depends delft_fiat --channel conda-forge
 ```
 
 
