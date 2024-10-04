@@ -1,5 +1,5 @@
 {% set name = "delft_fiat" %}
-{% set version = "0.1.0rc2" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1d22f4655d1b56785582aa36cdf389bec672ff16c7b5242f670652415b288d8b
+  sha256: c7e5f4e6350c97e0a6056e2da2be77c58fb548a70c1ff2552a26485446723267
 
 build:
   number: 0
@@ -18,12 +18,14 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.10
     - pip
+    - setuptools >=61.0.0
   run:
-    - gdal >=3.5
+    - gdal >=3.9.1
+    - libgdal-netcdf
     - numpy
-    - python >=3.7
+    - python >=3.10
     - regex
     - tomli
 
