@@ -22,7 +22,8 @@ requirements:
     - pip
     - setuptools >=61.0.0
   run:
-    - gdal >=3.5
+    - gdal >=3.9.1
+    - libgdal-netcdf
     - numpy
     - python >=3.10
     - regex
