@@ -148,4 +148,5 @@ Feedstock Maintainers
 =====================
 
 * [@dalmijn](https://github.com/dalmijn/)
+* [@deltares-service-account](https://github.com/deltares-service-account/)
 
