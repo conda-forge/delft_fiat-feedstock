@@ -1,4 +1,4 @@
-{% set python_min = "3.10" %}
+{% set python_min = "3.11" %}
 {% set name = "delft_fiat" %}
 {% set version = "0.3.0" %}
 
@@ -28,7 +28,6 @@ requirements:
     - numpy
     - python >={{ python_min }}
     - regex
-    - tomli
 
 test:
   imports:
@@ -40,7 +39,7 @@ test:
     - pip check
 
 about:
-  home: https://github.com/Deltares/Delft-FIAT
+  home: https://deltares.github.io/Delft-FIAT/stable/
   summary: Fast Impact Assessment Tool
   license: MIT
   license_family: MIT
