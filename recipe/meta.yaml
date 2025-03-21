@@ -1,6 +1,6 @@
-{% set python_min = '3.10' %}
+{% set python_min = "3.11" %}
 {% set name = "delft_fiat" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0018933129d4203cbb9c90d86537ba7d1f0e878261ed2fe770b7521318923485
+  sha256: 710a826ac7c0e5d9f71351aeec27dc0cd938f1e8977347e3d5757b88a0563331
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - fiat = fiat.cli.main:main
@@ -28,7 +28,6 @@ requirements:
     - numpy
     - python >={{ python_min }}
     - regex
-    - tomli
 
 test:
   imports:
@@ -40,7 +39,7 @@ test:
     - pip check
 
 about:
-  home: https://github.com/Deltares/Delft-FIAT
+  home: https://deltares.github.io/Delft-FIAT/stable/
   summary: Fast Impact Assessment Tool
   license: MIT
   license_family: MIT
