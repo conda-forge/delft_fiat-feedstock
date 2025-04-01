@@ -1,6 +1,6 @@
 {% set python_min = "3.11" %}
 {% set name = "delft_fiat" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 710a826ac7c0e5d9f71351aeec27dc0cd938f1e8977347e3d5757b88a0563331
+  sha256: dfe2c78148cee05df03efa5a67c2eb41f9108b81d236e3ca3ad50e8c91fc0872
 
 build:
   number: 0
