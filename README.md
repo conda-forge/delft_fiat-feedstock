@@ -3,7 +3,7 @@ About delft_fiat-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/delft_fiat-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/Deltares/Delft-FIAT
+Home: https://deltares.github.io/Delft-FIAT/stable/
 
 Package license: MIT
 
