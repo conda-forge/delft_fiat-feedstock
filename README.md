@@ -31,7 +31,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-delft_fiat-green.svg)](https://anaconda.org/conda-forge/delft_fiat) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/delft_fiat.svg)](https://anaconda.org/conda-forge/delft_fiat) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/delft_fiat.svg)](https://anaconda.org/conda-forge/delft_fiat) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/delft_fiat.svg)](https://anaconda.org/conda-forge/delft_fiat) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-delft__fiat-green.svg)](https://anaconda.org/conda-forge/delft_fiat) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/delft_fiat.svg)](https://anaconda.org/conda-forge/delft_fiat) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/delft_fiat.svg)](https://anaconda.org/conda-forge/delft_fiat) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/delft_fiat.svg)](https://anaconda.org/conda-forge/delft_fiat) |
 
 Installing delft_fiat
 =====================
